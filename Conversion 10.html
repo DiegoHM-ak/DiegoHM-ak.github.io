@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversion 10</title>
+    <link rel="stylesheet" href="PA20.-Estilos_general.css">
+</head>
+<body style="background-color: azure;">
+    <center><h1><i>AQUI CONVERTIREMOS LIBRAS A ONZAS</i></h1></center>
+    <div id="conversion_diez">
+        <center>Introduce tu valor en libras:</center>
+        <center><input type="text" name="num1" id="num1"></center>
+        <br><br>
+         <center><input type="button" name="convertir" id="convetir" value="aceptar" onclick="conver()"></center>
+         <center>Tu resultado en onzas es:</center>
+         <center><input type="text" name="res" id="res"></center>
+         <script>
+            function conver()
+            {
+                var n1 = document.getElementById('num1').value;
+                var respuesta =parseInt(n1)*16;
+                document.getElementById('res').value = respuesta;
+            }
+         </script>
+    </div>
+    <center><a href="Menu.html" id="REGRESAR AL MENU">REGRESAR A MENU</a></center>
+</body>
+</html>

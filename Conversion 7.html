@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Converison 7</title>
+    <link rel="stylesheet" href="PA20.-Estilos_general.css">
+</head>
+<body style="background-color: blanchedalmond;">
+    <center><h1><i>AQUI CONVERTIREMOS KILOGRAMOS A GRAMOS</i></h1></center>
+    <div id="conversion_siete">
+        <center>Introduce tu valor:</center>
+        <center><input type="text" name="num1" id="num1"></center>
+        <br><br>
+        <center><input type="button" name="Conversion" id="Conversion" value="aceptar" onclick="conversion()"></center>
+        <br>
+        <center>Tu resultado en gramos es:</center>
+        <center><input type="text" name="r" id="r"></center>
+        <script>
+            function conversion()
+            {
+                var n1 = document.getElementById('num1').value;
+                var resup = parseInt(n1) * 1000;
+                document.getElementById('r').value = resup;
+            }
+        </script>
+    </div>
+    <center><a href="Menu.html" id="REGRESAR AL MENU">REGRESAR A MENU</a></center>
+</body>
+</html>

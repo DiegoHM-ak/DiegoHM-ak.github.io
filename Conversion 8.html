@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversion 8</title>
+    <link rel="stylesheet" href="PA20.-Estilos_general.css">
+</head>
+<body style="background-color: darkseagreen;">
+    <center><h1>AQUI CONVERTIREMOS TONELADAS A KILOGRAMOS...</h1></center>
+    <div id="conversion_ocho">
+        <center>Introduce tu valor:</center>
+        <center><input type="text" name="num1" id="num1"></center>
+        <br><br>
+        <center><input type="button" name="Convertir" id="Convertir" value="acpetar" onclick="conversion()"></center>
+        <center>Tu conversion de toneladas a kg es:</center>
+        <center><input type="text" name="re" id="re"></center>
+        <script>
+            function conversion()
+            {
+                var n1 = document.getElementById('num1').value;
+                var resupo = parseInt(n1) * 1000;
+                document.getElementById('re').value = resupo;
+            }
+        </script>
+        <center><a href="Menu.html" id="REGRESAR AL MENU">REGRESAR A MENU</a></center>
+    </div>
+</body>
+</html>

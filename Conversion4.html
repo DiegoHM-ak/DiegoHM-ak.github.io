@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversion 4</title>
+    <link rel="stylesheet" href="PA20.-Estilos_general.css">
+</head>
+<body style="background-color: beige;">
+    <center><h1><i>AQUI CONVERTIREOS KILOMETROS A PIES </i></h1></center>
+    <div id="conversion_cuatro">
+        <center><b>Introduce tu valor en kilometros:</b></center>
+        <center><input type="text" name="num1" id="num1"></center>
+        <br><br>
+        <center><input type="button" name="Convertir" id="Convertir" value="acpetar" onclick="convertir()"></center>
+        <center><b>Tu resultado en es :</b></center>
+        <center><input type="text" name="ress" id="ress"></center>
+        <script>
+        function convertir()
+        {
+            var n1 = document.getElementById('num1').value;
+            var respuesta = parseInt(n1) * 3280.84;
+            document.getElementById('ress').value = respuesta;
+        }
+        </script>
+    </div>
+    <center><a href="Menu.html" id="REGRESAR AL MENU">REGRESAR A MENU</a></center>
+</body>
+</html>

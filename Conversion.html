@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversion 6</title>
+    <link rel="stylesheet" href="PA20.-Estilos_general.css">
+</head>
+<body>
+    <center><h1>AQUI TE CONVERTIREMOS MILIGRAMOS EN GRAMOS...</h1></center>
+    <div id="conversion_seis">
+        <center>Introduce tu valor en miligramos:</center>
+        <center><input type="text" name="num1" id="num1"></center>
+        <br><br>
+        <center><input type="button" name="Convertir" id="Convertir" value="acpetar" onclick="conversion()"></center>
+        <center>Tu resultado en gramos es:</center>
+        <center><input type="text" name="resss" id="resss"></center>
+        <script>
+            function conversion()
+            {
+                var n1 = document.getElementById('num1').value;
+                var resultadoso = parseInt(n1) / 1000;
+                document.getElementById('resss').value = resultadoso;
+            }
+        </script>
+        
+    </div>
+    <center><a href="Menu.html" id="REGRESAR AL MENU">REGRESAR A MENU</a></center>
+</body>
+</html>

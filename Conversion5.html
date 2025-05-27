@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversion 5</title>
+    <link rel="stylesheet" href="PA20.-Estilos_general.css">
+</head>
+<body>
+    <center><h1>AQUI CONVERTIREMOS DIAMETROS A PULGADAS</h1></center>
+    <div id="conversion_cinco">
+        <center>Introduce tu valor en decimetros:</center>
+        <center><input type="text" name="num1" id="num1"></center>
+        <br><br>
+        <center><input type="button" name="Convertir" id="Convertir" value="aceptar" onclick="conertir()"></center>
+        <br>
+        <center>Tu resultado en pulgadas es:</center>
+        <center><input type="text" name="resp" id="resp"></center>
+        <script>
+            function conertir()
+            {
+                var n1 = document.getElementById('num1').value;
+                var resultadoo = parseInt(n1) * 3.93701;
+                document.getElementById('resp').value = resultado;
+            }
+        </script>
+    </div>
+    <center><a href="Menu.html" id="REGRESAR AL MENU">REGRESAR A MENU</a></center>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversion 3</title>
+    <link rel="stylesheet" href="PA20.-Estilos_general.css">
+</head>
+<body>
+    <h1><center><i>Aqui convertiremos pies a metros... </i></center></h1>
+    <div id="conversion_tres">>
+        <center>introduce tu valor en pies:</center>
+        <center><input type="text" name="num1" id="num1"></center>
+        <br><br>
+        <center><input type="button" name="Convertir" id="Convertir" value="aceptar" onclick="conversion()"></center>
+        <center>Tu resultado es:</center>
+        <center><input type="text" name="res" id="res"></center>
+        <script>
+            function conversion()
+            {
+                var n1 = document.getElementById('num1').value;
+                var respues = parseInt(n1) / 5280;
+                document.getElementById('res').value = respues;
+            }
+        </script>
+    </div>
+    <center><a href="Menu.html" id="REGRESAR AL MENU">REGRESAR A MENU</a></center>
+</body>
+</html>

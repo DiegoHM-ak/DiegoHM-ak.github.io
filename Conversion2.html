@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversion 2</title>
+    <link rel="stylesheet" href="PA20.-Estilos_general.css">
+</head>
+<body style="background-color: darkgray;">
+    <h1><center>Aqui convertiras yardas a pulgadas</center> </h1>
+    <div id="conversion2">
+        <center>introduce tu numero:</center>
+        <center><input type="text" name="num1" id="num1"></center>
+        <br><br>
+        <center><input type="button" name="convertir" id="convertir" value="aceptar" onclick="Convertir()"></center>
+        <center>Tu Resultado es:</center>
+        <center><input type="text" name="res" id="res"></center>
+        <script>
+            function Convertir()
+            {
+                var n1 = document.getElementById('num1').value;
+                var resultadoo = parseInt (n1) * 36;
+                document.getElementById('res').value = resultadoo;
+            }
+        </script>
+    </div>
+    <center><a href="Menu.html" id="REGRESAR AL MENU">REGRESAR A MENU</a></center>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversion 1</title>
+    <link rel="stylesheet" href="PA20.-Estilos_general.css">
+</head>
+<body>
+    <h1><center>Aqui convertiremos centimetros a metros</center></h1>
+    <div id="conversion_1">
+        <center>Introduce tu numero:</center>
+        <center><input type="text" name="num1" id="num1"></center>
+        <br><br>
+        <center><input type="button" name="Convertir" id="Convertir" value="aceptar" onclick="convertir()"></center>
+        <center>Tu numero introducido en metros es:</center>
+        <center><input type="text" name="resultado" id="resultado"></center>
+        <script>
+            function convertir()
+            {
+                var n1 = document.getElementById('num1').value;
+                var resultados = parseInt(n1) / 100;
+                document.getElementById('resultado').value = resultados
+            }
+        </script>
+    </div>
+    <center><a href="Menu.html" id="REGRESAR AL MENU">REGRESAR A MENU</a></center>
+</body>
+</html>

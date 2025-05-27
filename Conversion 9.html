@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversion 9</title>
+    <link rel="stylesheet" href="PA20.-Estilos_general.css">
+</head>
+<body style="background-color: white;">
+    <center><h1><i>AQUI TE CONVERTIREMOS ONZAS A GRAMOS</i></h1></center>
+    <div id="conversion_nueve">
+        <center>Escribe tu valor en onzas</center>
+        <center><input type="text" name="num1" id="num1"></center>
+        <br><br>
+        <center><input type="button" name="convertir" id="convertir" value="aceptar" onclick="conversion()"></center>
+        <center>el resultado de la conversion de oz a g es:</center>
+        <center><input type="text" name="respor" id="respor"></center>
+        <script>
+            function conversion()
+            {
+                var n1 = document.getElementById('num1').value;
+                var respore = parseInt(n1) * 28.35;
+                document.getElementById('respor').value = respore;
+            }
+        </script>
+    </div>
+    <center><a href="Menu.html" id="REGRESAR AL MENU">REGRESAR A MENU</a></center>
+</body>
+</html>
