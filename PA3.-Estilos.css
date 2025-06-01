@@ -1,0 +1,244 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#pagina
+{
+    width: 1000px;
+    height: 1070px;
+    background-color: cadetblue;
+    position: relative;
+    top: 20px;
+    bottom: 20px; 
+    margin: auto;
+}
+#rectangulo1
+{
+    width: 950px;
+    height: 230px;
+    background-color: white;
+    margin-left: 25px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+#foto
+{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 100%;
+    margin-top: 25px;
+    text-align: center; 
+    margin: 15px -60px 0px 0px;
+    display: inline-block;
+    margin-right: 15px;
+}
+#datos
+{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(248, 126, 4);
+    margin: 0px 0px 0px 80px;
+    padding: 0;
+    display: inline-block;
+    margin-top: -700px;
+    text-align: center;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#rectangulo2
+{
+    width: 950px;
+    height: 100px;
+    background-color: white;
+    margin-left: 25px;
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+#op1
+{
+    width: 160px;
+    height: 50px;
+    background-color: rgb(210, 192, 30);
+    position: relative;
+    top: 25px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+#op2
+{
+    width: 160px;
+    height: 50px;
+    background-color: rgb(114, 210, 30);
+    position: relative;
+    top: 25px;
+    text-align: center;
+    display: inline-block; 
+    margin-right: 20px;
+}
+#op3
+{
+    width: 160px;
+    height: 50px;
+    background-color: rgb(3, 156, 21);
+    position: relative;
+    top: 25px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+#op4
+{
+    width: 160px;
+    height: 50px;
+    background-color: rgb(30, 210, 189);
+    position: relative;
+    top: 25px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+#op5
+{
+    width: 160px;
+    height: 50px;
+    background-color: rgb(30, 141, 210);
+    position: relative;
+    top: 25px;
+    text-align: center;
+    display: inline-block;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#rectangulo3
+{
+    width: 950px;
+    height: 540px;
+    background-color: white;
+    position: relative;
+    top: 60px;
+    margin-left: 25px;
+    text-align: center;
+}
+#cuadrado1
+{
+    width: 400px;
+    height: 500px;
+    background-color: orange;
+    margin-top: 20px;
+    margin-right: 30px;
+    text-align: center;
+    display: inline-block;
+}
+    #circulo1
+    {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: palevioletred;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #cuadrado5
+    {
+        width: 280px;
+        height: 230px;
+        background-color: pink;
+        margin: auto;
+        margin-top: 20px;
+    }
+#cuadrado2
+{
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+}
+    #cuadrado3
+    {
+        width: 450px;
+        height: 230px;
+        background-color: darkgreen;
+        margin: auto;
+        margin-top: 0px;
+    }
+    #cuadrado4
+    {
+        width: 450px;
+        height: 235px;
+        background-color: blue;
+        margin: auto;
+        margin-top: 35px;
+    }
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#rectangulo4
+{
+    width: 950px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    top: 80px;
+    margin-left: 25px;
+    text-align: center;
+}
+    #circulofacebok
+    {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: cornflowerblue;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    #facebok
+    {
+        width: 180px;
+        height: 50px;
+        background-color: cornflowerblue;
+        display: inline-block;
+        position: relative;
+        top: -15px;
+        margin-right: 40px;
+    }
+    #circulointa
+    {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: red;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    #insta
+    {
+        width: 180px;
+        height: 50px;
+        background-color: red;
+        display: inline-block;
+        position: relative;
+        top: -15px;
+        margin-right: 40px;
+    }
+    #circuloimeil
+    {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: blue;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    #imeil
+    {
+        width: 180px;
+        height: 50px;
+        background-color: blue;
+        display: inline-block;
+        position: relative;
+        top: -15px;
+    }

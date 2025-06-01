@@ -1,0 +1,43 @@
+#c1
+{
+    border: 5px solid black;
+    height: 650px;
+    width: 600px;
+    margin: auto;
+    background-size: 100%, 100%;
+    background-color: dodgerblue;
+    border-radius: 2%;
+}
+#nombre
+{
+    color: black;
+}
+#materia
+{
+    color: black;
+}
+#fecha
+{
+    color: black;
+}
+img{
+    margin-top: 10px;
+    border-radius: 40%;
+}
+h2{
+    margin-top: 10px;
+    color: black;
+}
+#login{
+    width: 150px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Login */
+#r_portada{
+    position: relative;
+    top: 100px;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+

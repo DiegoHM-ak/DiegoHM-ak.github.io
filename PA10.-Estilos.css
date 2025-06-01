@@ -1,0 +1,676 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#pagina
+{
+    width: 1450px;
+    height: 1700px;
+    background-color: yellow;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#contenedor_multicirculo1
+{
+    width: 450px;
+    height: 450px;
+    background-color: yellow;
+    /* display: inline-block; */
+    margin-top: 0px;
+}
+    #multicirculo1
+    {
+        width: 400px;
+        height: 400px;
+        background-color: white;
+        border-radius: 50%;
+        margin: 0px auto;
+        padding: 25px;
+    }
+    #multicirculo2
+    {
+        width: 330px;
+        height: 330px;
+        background-color: grey;
+        border-radius: 50%;
+        margin: auto;
+        padding: 35px;
+    }
+    #multicirculo3
+    {
+        width: 260px;
+        height: 260px;
+        background-color: dimgray;
+        border-radius: 50%;
+        margin: auto;
+        padding: 35px;
+    }
+    #multicirculo4
+    {
+        width: 190px;
+        height: 190px;
+        background-color: darkslategrey;
+        border-radius: 50%;
+        margin: auto;
+        padding: 35px;
+    }
+    #multicirculo5
+    {
+        width: 120px;
+        height: 120px;
+        background-color: hotpink;
+        border-radius: 50%;
+        margin: auto;
+        padding: 35px;
+    }
+    #multicirculo6
+    {
+        width: 50px;
+        height: 50px;
+        background-color: deeppink;
+        border-radius: 50%;
+        margin: auto;
+        padding: 35px;
+    }
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#contenedor_derecho_arriba
+{
+    width: 975px;
+    height: 450px;
+    background-color: darkblue;
+    margin-top: -450px;
+    margin-left: 475px;
+    /* text-align: center; */
+}
+    #columna_izquierda
+    {
+        width: 50px;
+        height: 430px;
+        background-color: darkgreen;
+        margin-top: 10px;
+        margin-left: 10px;
+        display: inline-block;
+    }
+    #cadena_central
+    {
+        width: 825px;
+        height: 50px;
+        background-color: white;
+        margin-left: 10px;
+        display: inline-block;
+    }
+    #cadena_central2
+    {
+        width: 825px;
+        height: 50px;
+        background-color: white;
+        position: relative;
+        top: -433px;
+        margin-left: 74px;
+    } 
+    #circulos_izquierda
+    {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        position: relative;
+        top: -415px;
+        left:95px;
+        background-color: red;
+        margin-bottom: 10px;
+    }
+        #cuadro_azul
+        {
+            width: 160px;
+            height: 160px;
+            background-color: dodgerblue;
+            margin-top: -1315px;
+            margin-left: 220px;
+            margin-bottom: 10px;
+        }
+        #rectangulos
+        {
+            width: 160px;
+            height: 30px;
+            background-color: lightseagreen;
+            margin-top: -1200;
+            margin-left: 220px;
+            margin-bottom: 10px;
+        }
+        #cuadro_morado
+        {
+            width: 160px;
+            height: 160px;
+            background-color: indigo;
+            margin-top: -170px;
+            margin-left: 590px;
+        }
+        #rectangulo2
+        {
+            width: 160px;
+            height: 30px;
+            background-color: lightseagreen;
+            position: relative;
+            top: -280px;
+            left: 590px;
+            margin-bottom: 10px;
+        }
+    #circulos_centrales
+    {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        position: relative;
+        top: -715px;
+        left: 440px;
+        background-color: red;
+        margin-bottom: 10px;
+    }
+    #circulos_derecha
+    {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        position: relative;
+        top: -1015px;
+        left: 790px;
+        background-color: red;
+        margin-bottom: 10px;
+    }
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#C1
+{
+    width: 1450px;
+    height: 80px;
+    background-color: black;
+    margin-top: 20px;
+    display: inline-block;
+}
+    #cuadrosC1
+    {
+        width: 70px;
+        height: 50px;
+        background-color: aquamarine;
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 95px;
+    }
+    #circulos_C1
+    {
+        width: 60px;
+        height: 60px;
+        background-color: darkturquoise;
+        display: inline-block;
+        position: relative;
+        top: -59px;
+        left: 105px;
+        margin-right: 115px;
+        border-radius: 50%;
+    }
+    /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#C2_izquierda
+{
+    width: 80px;
+    height: 1150px;
+    background-color: black;
+    margin-top: -55px;
+    display: inline-block;
+}
+    #circulos_C2
+    {
+        width: 60px;
+        height: 60px;
+        background-color: yellow;
+        border-radius: 50%;
+        position: relative;
+        top: 25px;
+        left: 10px;
+        margin-bottom: 40px;
+    }
+    #cuadro1_C2
+    {
+        width: 60px;
+        height: 50px;
+        background-color: red;
+        position: relative;
+        top: 20px;
+        left: 10px;
+        margin-bottom: 40px;
+    }
+    #circulos2_C2
+    {
+        width: 60px;
+        height: 60px;
+        background-color: yellow;
+        border-radius: 50%;
+        position: relative;
+        top: 20px;
+        left: 10px;
+        margin-bottom: 40px;
+    }
+    #cuadro2_C2
+    {
+        width: 60px;
+        height: 50px;
+        background-color: red;
+        position: relative;
+        top: 20px;
+        left: 10px;
+        margin-bottom: 40px;
+    }
+    #circulos3_C2
+    {
+        width: 60px;
+        height: 60px;
+        background-color: yellow;
+        border-radius: 50%;
+        position: relative;
+        top: 20px;
+        left: 10px;
+        margin-bottom: 40px;
+    }
+    #cuadro3_C2
+    {
+        width: 60px;
+        height: 50px;
+        background-color: red;
+        position: relative;
+        top: 20px;
+        left: 10px;
+        margin-bottom: 40px;
+    }
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7 */
+#Ca1
+{
+    width: 1330px;
+    height: 350px;
+    background-color: darkmagenta;
+    display: inline-block;
+    position: relative;
+    top: -780px;
+    left: 15px;
+}
+    #circulos_Ca1
+    {
+        width: 140px;
+        height: 140px;
+        background-color: darkturquoise;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    #circulos2_Ca1
+    {
+        width: 140px;
+        height: 140px;
+        background-color: white;
+        border-radius: 50%;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    #columnas1_Ca1
+    {
+        width: 40px;
+        height: 320px;
+        background-color: white;
+        margin: -315px 0px 0px 170px;;
+    }
+    #columnas2_Ca1
+    {
+        width: 40px;
+        height: 320px;
+        background-color: white;
+        margin: -320px 0px 0px 220px;;
+    }
+    #columnas3_Ca1
+    {
+        width: 40px;
+        height: 320px;
+        background-color: white;
+        margin: -320px 0px 0px 270px;;
+    }
+    #columnas4_Ca1
+    {
+        width: 40px;
+        height: 320px;
+        background-color: white;
+        margin: -320px 0px 0px 320px;;
+    }
+    #columnas5_Ca1
+    {
+        width: 40px;
+        height: 320px;
+        background-color: white;
+        margin: -320px 0px 0px 370px;;
+    }
+    #columnas6_Ca1
+    {
+        width: 40px;
+        height: 320px;
+        background-color: white;
+        margin: -320px 0px 0px 420px;;
+    }
+    #rectangulo_Ca1
+    {
+        width: 320px;
+        height: 70px;
+        background-color: white;
+        position: relative;
+        top: -320px;
+        left: 490px;
+        margin-bottom: 13.5px;
+    }
+    #rectangulo1_Ca1
+    {
+        width: 320px;
+        height: 70px;
+        background-color: white;
+        position: relative;
+        top: -654px;
+        left: 840px;
+        margin-bottom: 13.5px;
+    }
+    #circulo3_Ca1
+    {
+        width: 140px;
+        height: 140px;
+        background-color: orange;
+        border-radius: 50%;
+        margin: -983px 0px 0px 1175px;
+    }
+    #circulo4_Ca1
+    {
+        width: 140px;
+        height: 140px;
+        background-color: red;
+        border-radius: 50%;
+        margin: 30px 0px 0px 1176px;
+    }
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#Ca2
+{
+    width: 400px;
+    height: 750px;
+    background-color: dimgray;
+    display: inline-block;
+    position: relative;
+    top: -780px;
+    left: 100px;
+}
+    #linea11
+    {
+        width: 50px;
+        height: 200px;
+        background-color: white;
+        margin: 10px 0px 0px 12px;
+    }
+    #linea12
+    {
+        width: 50px;
+        height: 200px;
+        background-color: white;
+        margin: -200px 0px 0px 77px;
+    }
+    #linea13
+    {
+        width: 50px;
+        height: 200px;
+        background-color: white;
+        margin: -200px 0px 0px 142px;
+    }
+    #linea14
+    {
+        width: 50px;
+        height: 200px;
+        background-color: white;
+        margin: -200px 0px 0px 207px;
+    }
+    #linea15
+    {
+        width: 50px;
+        height: 200px;
+        background-color: white;
+        margin: -200px 0px 0px 272px;
+    }
+    #linea16
+    {
+        width: 50px;
+        height: 200px;
+        background-color: white;
+        margin: -200px 0px 0px 337px;
+    }
+    #rectangulo_Ca2
+    {
+        width: 377px;
+        height: 40px;
+        background-color: white;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        margin-bottom: 14px;
+    }
+    #linea111
+    {
+        width: 50px;
+        height: 200px;
+        background-color: white;
+        margin: 20px 0px 0px 10px;
+    }
+    #linea122
+    {
+        width: 50px;
+        height: 200px;
+        background-color: white;
+        margin: -200px 0px 0px 75px;
+    }
+    #linea133
+    {
+        width: 50px;
+        height: 200px;
+        background-color: white;
+        margin: -200px 0px 0px 140px;
+    }
+    #linea144
+    {
+        width: 50px;
+        height: 200px;
+        background-color: white;
+        margin: -200px 0px 0px 205px;
+    }
+    #linea155
+    {
+        width: 50px;
+        height: 200px;
+        background-color: white;
+        margin: -200px 0px 0px 270px;
+    }
+    #linea166
+    {
+        width: 50px;
+        height: 200px;
+        background-color: white;
+        margin: -200px 0px 0px 335px;
+    }
+    /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#Ca3
+{
+    width: 730px;
+    height: 600px;
+    background-color: yellow;
+    display: inline-block;
+    position: relative;
+    top: -930px;
+    left: 100px;
+    margin-left: 15px;
+}
+    #multicirculo1_Ca3
+    {
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        border-radius: 50%;
+        margin: 0px auto;
+        padding: 45px;
+    }
+    #multicirculo2_Ca3
+    {
+        width: 450px;
+        height: 450px;
+        background-color: darkblue;
+        border-radius: 50%;
+        margin: auto;
+        padding: 22px;
+    }
+    #multicirculo3_Ca3
+    {
+        width: 300px;
+        height: 300px;
+        background-color: cornflowerblue;
+        border-radius: 50%;
+        margin: 30px auto;
+        padding: 40px;
+    } 
+    #multicirculo4_Ca3
+    {
+        width: 250px;
+        height: 250px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        margin: 10px auto;
+        padding: 15px;
+    } 
+    #multicirculo5_Ca3
+    {
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        border-radius: 50%;
+        margin: 25px auto;
+        padding: 0px;
+    } 
+    #multicirculo6_Ca3
+    {
+        width: 130px;
+        height: 130px;
+        background-color: deeppink;
+        border-radius: 50%;
+        position: relative;
+        top: 34px;
+        left: 34px;
+    } 
+    #multicirculo7_Ca3
+    {
+        width: 70px;
+        height: 70px;
+        background-color: brown;
+        border-radius: 50%;
+        position: relative;
+        top: 30px;
+        left: 31px;
+    } 
+    #multicirculo8_Ca3
+    {
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-radius: 50%;
+        position: relative;
+        top: 20px;
+        left: 20px;
+    } 
+    /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#Ca4
+{
+    width: 110px;
+    height: 760px;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    top: -785px;
+    left: 151px;
+    margin-left: 15px;
+}
+    #rectangulo1_Ca4
+    {
+        width: 110px;
+        height: 253.3px;
+        background-color: coral;
+        margin: auto;
+    }
+    #rectangulo2_Ca4
+    {
+        width: 110px;
+        height: 253.3px;
+        background-color: indigo;
+        margin: auto;
+    }
+    #rectangulo3_Ca4
+    {
+        width: 110px;
+        height: 260px;
+        background-color: cyan;
+        margin: auto;
+    }
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7 */
+#Ca5
+{
+    width: 785px;
+    height: 137px;
+    background-color: chartreuse;
+    display: inline-block;
+    position: relative;
+    top: -920px;
+    left: 520px;
+}
+    #circulos1_Ca5
+    {
+        width: 100px;
+        height: 100px;
+        background-color: cornflowerblue;
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 19px;
+        margin-left: 0px;
+    }
+    #circulos2_Ca5
+    {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 19px;
+        margin-left: 0px;
+    }
+    #circulos3_Ca5
+    {
+        width: 100px;
+        height: 100px;
+        background-color: indigo;
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 19px;
+        margin-left: 0px;
+    }
+    #contenedor
+    {
+        width: 470px;
+        height: 125px;
+        background-color: chartreuse;
+        margin-top: 0px;
+        display: inline-block;
+        position: relative;
+        top: 1px;
+    }
+    #linea_Ca5
+    {
+        width: 150px;
+        height: 20px;
+        background-color: white;
+        margin-right: 4px;
+        margin-top: 5px;
+        display: inline-block;
+    }

@@ -1,0 +1,30 @@
+/* Modificando la cabeza de mi pagina */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#cabeza
+{
+    background-color: red;
+    /* Es necesario espesificar el tamaño del contenedor */
+    width: 10%;
+    height: 50px;
+    margin: 10px auto;
+}
+/* Modificando el cuerpo de mi Pagina */
+#cuerpo
+{
+    background-color: blueviolet;
+    width: 60%;
+    height: 500px;
+    margin: 10px auto;
+}
+/* Modificando el pie de mi Pagina */
+#pie
+{
+    background-color: yellow;
+    width: 20%;
+    height:100px;
+    margin: auto;
+}

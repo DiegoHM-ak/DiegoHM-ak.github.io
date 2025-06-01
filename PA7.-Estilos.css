@@ -1,0 +1,633 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#cuadro_principal
+{
+    width: 1250px;
+    height: 1280px;
+    background-color: black;
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align: center;
+    margin: auto;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+#cuadro_izquierdo_superior
+{
+    width: 550px;
+    height: 600px;
+    background-color: darkgray;
+    margin-top: 25px;
+    margin-left: 5px;
+    display: inline-block;
+}
+    #rectangulo_derecho
+    {
+        width: 200px;
+        height: 580px;
+        background-color: chartreuse;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+        #circulo1
+        {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border-radius: 50%;
+            position: relative;
+            top: 10px;
+            left: 50px;
+            margin-top: 10px;
+        }
+        #rectangulo1
+        {
+            width: 170px;
+            height: 40px;
+            background-color: darkorange;
+            margin-top: 15px;
+            position: relative;
+            top: 20px;
+            left: 15px;
+        }
+    #rectangulo_central 
+    {
+        width: 326px;
+        height: 100px;
+        background-color: deepskyblue;
+        /* display: inline-block; */
+        margin: -580px 0px 0px 215px;
+    }
+        #circulos1
+        {
+            width: 70px;
+            height: 70px;
+            background-color: blue;
+            border-radius: 50%;
+            position: relative;
+            top: 15px;
+            left: 5px;
+        }
+        #circulos2
+        {
+            width: 70px;
+            height: 70px;
+            background-color: blue;
+            border-radius: 50%;
+            margin: -55px 0px 0px 79px;
+        }
+        #circulos3
+        {
+            width: 70px;
+            height: 70px;
+            background-color: blue;
+            border-radius: 50%;
+            margin: -70px 0px 0px 152px;
+        }
+        #cuadro_1
+        {
+            width: 93px;
+            height: 70px;
+            background-color: blue;
+            margin: -70px 0px 0px 227px;
+        }
+    #rectangulo_central_izquierdo1
+    {
+        width: 160px;
+        height: 470px;
+        background-color: maroon;
+        margin: 10px 0px 0px 215px;
+    }
+        #linea1
+        {
+            width: 140px;
+            height: 35px;
+            background-color: gold;
+            position: relative;
+            top: 10px;
+            left: 10px;
+            margin-top: 10px;
+        }
+        #circulo2
+        {
+            width: 80px;
+            height: 80px;
+            background-color: darkgoldenrod;
+            border-radius: 50%;
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+    #rectangulo_central_derecha2
+    {
+        width: 160px;
+        height: 470px;
+        background-color: firebrick;
+        margin: -470px 0px 0px 382px;
+    }
+        #ciruclo_10
+        {
+            width: 60px;
+            height: 60px;
+            background-color: aliceblue;
+            border-radius: 50%;
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+        #ciruclo_11
+        {
+            width: 60px;
+            height: 60px;
+            background-color: aliceblue;
+            border-radius: 50%;
+            position: relative;
+            top: -50px;
+            left: 90px;
+        }
+        #ciruclo_12
+        {
+            width: 60px;
+            height: 60px;
+            background-color: aliceblue;
+            border-radius: 50%;
+            position: relative;
+            top: -30px;
+            left: 10px;
+        }
+        #ciruclo_13
+        {
+            width: 60px;
+            height: 60px;
+            background-color: aliceblue;
+            border-radius: 50%;
+            position: relative;
+            top: -90px;
+            left: 90px;
+        }
+        #ultimo_cuadro
+        {
+            width: 140px;
+            height: 280px;
+            background-color: aqua;
+            position: relative;
+            top: -60px;
+            left: 10px;
+        }
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+#cuadro_derecho_superior
+{
+    width: 550px;
+    height: 600px;
+    background-color: darkgray;
+    margin-top: 10px;
+    margin-left: 35px;
+    display: inline-block;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+#cuadro_izquierdo_inferior
+{
+    width: 550px;
+    height: 600px;
+    background-color: darkgray;
+    margin-top: 25px;
+    margin-left: 5px;
+    display: inline-block;
+}
+#rectangulo_20
+{
+    width: 525px;
+    height: 100px;
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+    #rectangulo_para_circulos
+    {
+        width: 500px;
+        height: 60px;
+        background-color: aliceblue;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    #circulos__1
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    #circulos__2
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -20px;
+        left: 50px;
+    } 
+    #circulos__3
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -50px;
+        left: 89px;
+    } 
+    #circulos__4
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -80px;
+        left: 128px;
+    } 
+    #circulos__5
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -110px;
+        left: 167px;
+    } 
+    #circulos__6
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -140px;
+        left: 206px;
+    } 
+    #circulos__7
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -170px;
+        left: 243px;
+    } 
+    #circulos__8
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -200px;
+        left: 281px;
+    } 
+    #circulos__9
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -229px;
+        left: 319px;
+    } 
+    #circulos__10
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -260px;
+        left: 356px;
+    } 
+    #circulos__11
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -290px;
+        left: 396px;
+    } 
+    #circulos__12
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -320px;
+        left: 435px;
+    } 
+    #circulos__13
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -350px;
+        left: 474px;
+    } 
+    #circulos_14
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -332px;
+        left: 10px;
+    }
+    #circulos_15
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -362px;
+        left: 49px;
+    }
+    #circulos_16
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -392px;
+        left: 88px;
+    }
+    #circulos_17
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -422px;
+        left: 127px;
+    }
+    #circulos_18
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -452px;
+        left: 167px;
+    }
+    #circulos_19
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -482px;
+        left: 206px;
+    }
+    #circulos_20
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -512px;
+        left: 243px;
+    }
+    #circulos_21
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -542px;
+        left: 281px;
+    }
+    #circulos_22
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -572px;
+        left: 320px;
+    }
+    #circulos_23
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -602px;
+        left: 357px;
+    }
+    #circulos_24
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -632px;
+        left: 396px;
+    }
+    #circulos_25
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -662px;
+        left: 434px;
+    }
+    #circulos_26
+    {
+        width: 30px;
+        height: 30px;
+        background-color: chartreuse;
+        border-radius: 50%;
+        position: relative;
+        top: -692px;
+        left: 473px;
+    }
+#rectangulo_21
+{
+    width: 525px;
+    height: 100px;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+    #penultimos
+    {
+        width: 120px;
+        height: 40px;
+        background-color: cadetblue;
+        position: relative;
+        top: 5px;
+        left: 8px;
+    }
+    #penultimos2
+    {
+        width: 120px;
+        height: 40px;
+        background-color: cadetblue;
+        position: relative;
+        top: -35px;
+        left: 138px;
+    }
+    #penultimos3
+    {
+        width: 120px;
+        height: 40px;
+        background-color: cadetblue;
+        position: relative;
+        top: -75px;
+        left: 268px;
+    }
+    #penultimos4
+    {
+        width: 120px;
+        height: 40px;
+        background-color: cadetblue;
+        position: relative;
+        top: -115px;
+        left:398px;
+    }
+    #penultimos_abajo
+    {
+        width: 120px;
+        height: 40px;
+        background-color: cadetblue;
+        position: relative;
+        top: -105px;
+        left: 8px;
+    }
+    #penultimos_abajo2
+    {
+        width: 120px;
+        height: 40px;
+        background-color: cadetblue;
+        position: relative;
+        top: -145px;
+        left: 137px;
+    }
+    #penultimos_abajo3
+    {
+        width: 120px;
+        height: 40px;
+        background-color: cadetblue;
+        position: relative;
+        top: -185px;
+        left: 268px;
+    }
+    #penultimos_abajo4
+    {
+        width: 120px;
+        height: 40px;
+        background-color: cadetblue;
+        position: relative;
+        top: -225px;
+        left: 398px;
+    }
+        #cuadro_grande
+        {
+            width: 350px;
+            height: 360px;
+            background-color: darkgoldenrod;
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+            #circulos_a
+            {
+                width: 70px;
+                height: 70px;
+                background-color: darkslateblue;
+                border-radius: 50%;
+                position: relative;
+                top: 15px;
+                left: 15px;
+                margin-bottom: 20px
+            }
+            #cuadro_b
+            {
+                width: 240px;
+                height: 160px;
+                background-color: darkslateblue;
+                position: relative;
+                top: -165px;
+                left: 100px;
+            }
+            #cuadro_c
+            {
+                width: 240px;
+                height: 160px;
+                background-color: darkslateblue;
+                position: relative;
+                top: -150px;
+                left: 10px;
+            }
+            #circulos_b
+            {
+                width: 70px;
+                height: 70px;
+                background-color: darkslateblue;
+                border-radius: 50%;
+                position: relative;
+                top: -310px;
+                left: 270px;
+                margin-bottom: 20px
+            }
+        #cuadro_largo
+        {
+            width: 165px;
+            height: 360px;
+            background-color: orange;
+            position: relative;
+            left: 370px;
+            top: -350px;
+        }
+            #circulos_d
+            {
+                width: 77px;
+                height: 77px;
+                background-color: aliceblue;
+                border-radius: 50%;
+                position: relative;
+                top: 10px;
+                left: 44px;
+                margin-bottom: 10px;
+            }
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+#cuadro_derecho_inferior
+{
+    width: 550px;
+    height: 600px;
+    background-color: darkgray;
+    margin-top: 10px;
+    margin-left: 35px;
+    display: inline-block;
+}
